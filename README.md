@@ -1,26 +1,24 @@
-ChatterBot Project
-This project uses the ChatterBot library to create a chatbot that can hold conversations with users. The bot has been trained on various datasets related to human-computer interaction and can answer questions on a wide range of topics.
+# Chatbot Project
 
-Installation
-To run the project, you will need Python 3.x and the ChatterBot library installed. You can install ChatterBot using pip:
+## Overview
+This project leverages the ChatterBot library to create a chatbot capable of engaging in conversations with users. The chatbot has been trained on diverse datasets related to human-computer interaction, enabling it to respond to a broad spectrum of topics.
 
-Copy code
-pip install chatterbot
-Once you have installed ChatterBot, you can run the project by executing the chatbot.py file:
+## Technologies Used
+- Python
+- Kivy
+- ChatterBot
 
-Copy code
-python chatbot.py
-Training Data
-The chatbot has been trained on various datasets related to human-computer interaction. These datasets can be found in the data directory. You can add your own training data to the data directory to further train the bot.
+## Application
+The application is built using Python, Kivy, and ChatterBot. Kivy is a Python library for developing multitouch applications. It's cross-platform (Linux/OS X/Windows/Android/iOS) and released under the MIT license. It is particularly good for applications that require multi-touch, gestures, and other modern touch features.
 
-Configuration
-The configuration file config.yml contains various settings for the chatbot, such as the training data and the storage adapter. You can modify these settings to customize the behavior of the chatbot.
+ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users.
 
-Usage
-Once you have started the chatbot, you can begin chatting with it by typing in the console. The chatbot will respond to your messages with pre-defined responses based on the training data. You can also add new responses to the chatbot by typing train in the console and following the prompts.
+## Role
+As a developer, I was responsible for integrating ChatterBot into the KivyMD framework, ensuring a user-friendly chat interface and seamless interactions with the chatbot.
 
-Contributing
-If you would like to contribute to the project, you can submit a pull request on GitHub. Before submitting a pull request, please ensure that your code follows the PEP 8 style guide and that any new functionality is covered by unit tests.
+## Future Work
+Going forward, we aim to continually improve the chatbot's performance and expand its range of responses. We welcome contributions and suggestions for improvements. If you have any ideas, please feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details
+## Final product
+![final product](https://github.com/kiharageneral/chatterbot/assets/96424387/2f9ed97a-2f01-42a6-939a-c1a9763b82c5)
+![final_product](https://github.com/kiharageneral/chatterbot/assets/96424387/e70c0392-8dfd-430e-a633-8b0a7944ad73)
